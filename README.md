@@ -53,3 +53,5 @@ Node:
 ```
 npm start
 ```
+
+7. start client
