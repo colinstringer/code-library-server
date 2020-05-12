@@ -22,10 +22,10 @@ router.get("/examples", authMiddleware, async (req, res) => {
 router.post("/example", authMiddleware, async (req, res) => {
   const { codeblock, output, codeWidth, sequence, pageId } = req.body;
 
-  if (!codeblock || !output) {
+  if (!codeblock) {
     return res
       .status(400)
-      .send({ message: "Please enter both textfields" });
+      .send({ message: "Please enter the code textfield" });
   }
 
   if (!pageId) {
