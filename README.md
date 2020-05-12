@@ -1,4 +1,4 @@
-# Server template
+# Project server
 
 This is my codaisseur portfolio project.
 
@@ -40,7 +40,7 @@ To reset the db:
 npm run resetDB
 ```
 
-6. start server with `nodemon` or node
+6. start server with `nodemon` or `node`
 
 Nodemon:
 
@@ -52,4 +52,4 @@ Node:
 
 ```
 npm start
-``
+```
